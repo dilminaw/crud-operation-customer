@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="contraller.dashBoardContraller">
+   <children>
+      <Label layoutX="165.0" layoutY="35.0" text="DASH BOARD">
+         <font>
+            <Font name="System Bold" size="32.0" />
+         </font>
+      </Label>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="216.0" layoutY="141.0" mnemonicParsing="false" onAction="#btnAddCoustomerFormOnaction" prefHeight="46.0" prefWidth="110.0" style="-fx-background-color: Black;" text="ADD" textFill="#f4e9e9">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="218.0" layoutY="276.0" mnemonicParsing="false" onAction="#btnSearchCoustomerFormOnaction" style="-fx-background-color: Black;" text="SEARCH" textFill="#f4e9e9">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="218.0" layoutY="209.0" mnemonicParsing="false" onAction="#btnUpdateCoustomerFormOnAction" style="-fx-background-color: Black;" text="UPDATE" textFill="#f4e9e9">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Button>
+      <Button layoutX="218.0" layoutY="340.0" mnemonicParsing="false" onAction="#btnDeleteFornOnAction" prefHeight="46.0" prefWidth="110.0" style="-fx-background-color: Black;" text="DELETE" textFill="#f4e9e9">
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
