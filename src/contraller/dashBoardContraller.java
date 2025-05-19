@@ -31,6 +31,14 @@ public class dashBoardContraller {
     @FXML
     void btnSearchCoustomerFormOnaction(ActionEvent event) {
 
+        Stage stage = new Stage();
+        try {
+            stage.setScene(new Scene(FXMLLoader.load(getClass().getResource("../view/search_coustomer_form.fxml"))));
+            stage.show();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+
     }
 
     @FXML
